@@ -1,0 +1,4 @@
+blog/cache
+blog/__pycache__
+blog/.doit.db
+blog/output
