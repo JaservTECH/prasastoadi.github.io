@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Prasasto Adi</title>
+  <title>Bintang</title>
   <meta name="description" content="Prasasto Adi - Personal Blog">
   <meta name="author" content="Prasasto Adi">
   <meta name="HandheldFriendly" content="True">
@@ -43,7 +43,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://prasastoadi.github.io//">
+  <link rel="canonical" href="http://prasastoadi.github.io//blog/2016/bintang/">
   <link rel="alternate" type="application/rss+xml" title="Prasasto Adi" href="/feed.xml">
 </head>
 
@@ -144,35 +144,69 @@
 
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
-        <div class="main-post-list">
+        <article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="28 Oct 2016" class="post-meta__date date">28 Oct 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#code">code</a> </span>
+    </div>
+    <h1 class="post-title">Bintang</h1>
+  </header>
 
-  <ol class="post-list">
-    
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="/blog/2016/bentuk-terikat/" title="Bentuk Terikat">Bentuk Terikat</a></h2>
-        <p class="excerpt">Dalam Bahasa Indonesia, ada beberapa unsur terikat yang tidak bisa berdiri sendiri, harus melekat dengan kata lainnya.
+  <section class="post">
+    <p>Cara membuat bintang.</p>
 
-&hellip;</p>
-        <div class="post-list__meta"><time datetime="9 Nov 2016" class="post-list__meta--date date">9 Nov 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#bahasa">bahasa</a> </span></div>
-        <hr class="post-list__divider">
-      </li>
-    
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="/blog/2016/bintang/" title="Bintang">Bintang</a></h2>
-        <p class="excerpt">Cara membuat bintang.
+<pre><code class="language-python">#***********
+# ********* 
+#  *******  
+#   *****   
+#    ***    
+#     *     
+#    ***    
+#   *****   
+#  *******  
+# ********* 
+#***********
 
-&hellip;</p>
-        <div class="post-list__meta"><time datetime="28 Oct 2016" class="post-list__meta--date date">28 Oct 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#code">code</a> </span></div>
-        <hr class="post-list__divider">
-      </li>
-    
-  </ol>
+loop = 10+1
+mid = loop//2
+for line in range(loop):
+    for star in range(loop):
+        if (star &gt;= mid-abs(mid-line)) and (star &lt;= mid+abs(mid-line)):
+            print('*', end='')
+        else:
+            print(' ', end='')
+    print('')
+</code></pre>
 
-  <hr class="post-list__divider ">
+<pre><code class="language-python">#     *     
+#    ***    
+#   *****   
+#  *******  
+# ********* 
+#***********
+# ********* 
+#  *******  
+#   *****   
+#    ***    
+#     *  
 
+loop = 10+1
+mid = loop//2
+for line in range(loop):
+    for star in range(loop):
+        if star &gt;= mid-abs(mid-abs(mid-line)) and star &lt;= mid+abs(mid-abs(mid-line)):
+            print('*', end='')
+        else:
+            print(' ', end='')
+    print('')
+</code></pre>
+
+  </section>
   
+</article>
 
-</div>
+
+
       </div>
 
       <footer class="footer">

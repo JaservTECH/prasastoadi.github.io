@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Prasasto Adi</title>
+  <title>Categories</title>
   <meta name="description" content="Prasasto Adi - Personal Blog">
   <meta name="author" content="Prasasto Adi">
   <meta name="HandheldFriendly" content="True">
@@ -43,7 +43,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://prasastoadi.github.io//">
+  <link rel="canonical" href="http://prasastoadi.github.io//categories/">
   <link rel="alternate" type="application/rss+xml" title="Prasasto Adi" href="/feed.xml">
 </head>
 
@@ -144,35 +144,57 @@
 
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
-        <div class="main-post-list">
-
-  <ol class="post-list">
-    
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="/blog/2016/bentuk-terikat/" title="Bentuk Terikat">Bentuk Terikat</a></h2>
-        <p class="excerpt">Dalam Bahasa Indonesia, ada beberapa unsur terikat yang tidak bisa berdiri sendiri, harus melekat dengan kata lainnya.
-
-&hellip;</p>
-        <div class="post-list__meta"><time datetime="9 Nov 2016" class="post-list__meta--date date">9 Nov 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#bahasa">bahasa</a> </span></div>
-        <hr class="post-list__divider">
-      </li>
-    
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="/blog/2016/bintang/" title="Bintang">Bintang</a></h2>
-        <p class="excerpt">Cara membuat bintang.
-
-&hellip;</p>
-        <div class="post-list__meta"><time datetime="28 Oct 2016" class="post-list__meta--date date">28 Oct 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#code">code</a> </span></div>
-        <hr class="post-list__divider">
-      </li>
-    
-  </ol>
-
-  <hr class="post-list__divider ">
-
-  
+        <h2>Categories:</h2>
+<div class="categories"> 
+ 
+  <a href="#code">code</a>
+ 
+  <a href="#bahasa">bahasa</a>
 
 </div>
+
+<!-- iterate through all categories on the site --> 
+ 
+  <!-- for each tag, create an anchor by using the tag name as an id --> 
+  <div id="code">  
+    <h3> code </h3>  <!-- for create a heading --> 
+
+    <ul> <!-- create the list of posts -->
+      <!-- iterate through all the posts on the site --> 
+       
+        <!-- list only those which contain the current tag --> 
+        
+       
+        <!-- list only those which contain the current tag --> 
+         
+            <li>
+              <a href="//blog/2016/bintang/">Bintang</a>
+            </li>
+        
+      
+    </ul>
+  </div>
+ 
+  <!-- for each tag, create an anchor by using the tag name as an id --> 
+  <div id="bahasa">  
+    <h3> bahasa </h3>  <!-- for create a heading --> 
+
+    <ul> <!-- create the list of posts -->
+      <!-- iterate through all the posts on the site --> 
+       
+        <!-- list only those which contain the current tag --> 
+         
+            <li>
+              <a href="//blog/2016/bentuk-terikat/">Bentuk Terikat</a>
+            </li>
+        
+       
+        <!-- list only those which contain the current tag --> 
+        
+      
+    </ul>
+  </div>
+
       </div>
 
       <footer class="footer">

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+    <url>
+      <loc>http://prasastoadi.github.io/blog/2016/bentuk-terikat/</loc>
+      
+        <lastmod>2016-11-09T22:13:48+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://prasastoadi.github.io/blog/2016/bintang/</loc>
+      
+        <lastmod>2016-10-28T21:43:14+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+  
+    
+    <url>
+      <loc>http://prasastoadi.github.io/categories/</loc>
+      
+        <lastmod>2016-11-10T21:15:53+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://prasastoadi.github.io/feed.xml</loc>
+      
+        <lastmod>2016-11-10T21:15:53+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://prasastoadi.github.io/</loc>
+      
+        <lastmod>2016-11-10T21:15:53+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://prasastoadi.github.io/js/main.js</loc>
+      
+        <lastmod>2016-11-10T21:15:53+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://prasastoadi.github.io/tags/</loc>
+      
+        <lastmod>2016-11-10T21:15:53+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+</urlset>
